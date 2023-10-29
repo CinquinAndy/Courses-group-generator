@@ -36,10 +36,10 @@ export default function Navbar() {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/">Accueil</Link>
             </li>
             <li>
-              <Link href="/how-to-use">How To Use</Link>
+              <Link href="/how-to-use">Comment utilisé</Link>
             </li>
             <li>
               <a

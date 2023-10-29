@@ -1,12 +1,15 @@
+import Link from "next/link";
+
 export default function Footer() {
-  return (
-    <footer className="p-6 mx-auto text-center text-base-content">
-      <p className="font-medium text-sm">© Ryu K</p>
-      <p className="text-xs">
-        Thanks to all the sponsors, contributors, and friends who have supported
-        this project.
-      </p>
-      <p className="text-xs my-2">v2.0</p>
-    </footer>
-  );
+    return (
+        <footer className="p-6 mx-auto text-center text-base-content">
+            <p className="font-medium text-sm">© {
+                new Date().getFullYear()
+            } <Link href={"https://andy-cinquin.fr"} className={"underline"}>Andy Cinquin</Link></p>
+            <p className="text-xs">
+                Developed & Designed with ❤️ 🐝
+                <Link href={"https://forhives.fr"}>ForHives co-founders</Link>
+            </p>
+        </footer>
+    );
 }
