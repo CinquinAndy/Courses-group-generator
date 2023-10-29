@@ -39,16 +39,7 @@ export default function Navbar() {
 							<Link href="/">Accueil</Link>
 						</li>
 						<li>
-							<Link href="/how-to-use">Comment utilisé</Link>
-						</li>
-						<li>
-							<a
-								href="https://github.com/ryuuwiz/team-generator"
-								target="_blank"
-								rel="noreferrer"
-							>
-								Github
-							</a>
+							<Link href="/how-to-use">Comment utiliser</Link>
 						</li>
 						<li>
 							<div className="form-control">
@@ -69,25 +60,16 @@ export default function Navbar() {
 					</ul>
 				</div>
 				<a className="btn btn-ghost text-2xl normal-case">
-					<span className="text-primary">Team</span>&nbsp;Generator
+					<span className="text-primary">Générateur</span>
 				</a>
 			</div>
 			<div className="navbar-end hidden px-2 md:flex">
 				<ul className="menu menu-horizontal flex items-center p-0">
 					<li>
-						<Link href="/">Home</Link>
+						<Link href="/">Accueil</Link>
 					</li>
 					<li>
-						<Link href="/how-to-use">How To Use</Link>
-					</li>
-					<li>
-						<a
-							href="https://github.com/ryuuwiz/team-generator"
-							target="_blank"
-							rel="noreferrer"
-						>
-							Github
-						</a>
+						<Link href="/how-to-use">Comment utiliser</Link>
 					</li>
 					<li>
 						<label className="swap swap-rotate" data-cy="darkModeDesktop">

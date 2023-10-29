@@ -13,7 +13,7 @@ export default function Team({ team, index }: Props) {
 			data-aos-delay={teamId + '00'}
 		>
 			<div className="card-body">
-				<h2 className="card-title">Team {teamId}</h2>
+				<h2 className="card-title">Groupe {teamId}</h2>
 				<ul>
 					{team ? team.map((item, index) => <li key={index}>{item}</li>) : ''}
 				</ul>
