@@ -2,18 +2,17 @@
 
 #### _An application for generating classes randomly._
 
-> my sister said to me : 
-> ``i need a group generator, i will have 7 tables in the classroom, 4 with 4 students (2 ce2 and 2 ce1)
-> and 3 with 1 ce2 and 2 ce1
-> I need something that mixes the ce2s and ce1s every week
-> but it mixes me automatically when I have a hand on it
-> a sort of map with my ce2s placed first and then I add my ce1s
-> but I'd have to be able to enter my pupils' levels too.``  
+> my sister said to me :
+> `i need a group generator, i will have 7 tables in the classroom, 4 with 4 students (2 ce2 and 2 ce1)
+and 3 with 1 ce2 and 2 ce1
+I need something that mixes the ce2s and ce1s every week
+but it mixes me automatically when I have a hand on it
+a sort of map with my ce2s placed first and then I add my ce1s
+but I'd have to be able to enter my pupils' levels too.`  
 > ce2 = 8 years old  
-> ce1 = 7 years old  
-> 
+> ce1 = 7 years old
 
-[//]: # (![img.png]&#40;img.png&#41;)
+[//]: # '![img.png](img.png)'
 
 ## How to run ??
 
@@ -42,7 +41,6 @@ That is the list of technologies that this project use.
 > > - [Prettier](https://prettier.io/)
 > > - [EsLint](https://eslint.org/)
 > > - [Husky](https://typicode.github.io/husky/#/)
->
 >
 > **CI/CD**
 >
@@ -90,4 +88,3 @@ That is the list of technologies that this project use.
 > > - [MidJourney](https://midjourney.com/)
 
 > **Forked from [ryuuwiz/team-generator](https://github.com/ryuuwiz/team-generator)**
-> 
