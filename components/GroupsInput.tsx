@@ -6,7 +6,7 @@ export default function GroupsInput() {
 		<>
 			<label className="label">
 				<span className="label-text text-lg font-bold text-base-content">
-					Groups
+					Groupes
 				</span>
 			</label>
 			<input
