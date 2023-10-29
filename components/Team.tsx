@@ -9,8 +9,6 @@ export default function Team({ team, index }: Props) {
 		<div
 			data-cy="team"
 			className="card bg-primary text-primary-content shadow-xl"
-			data-aos="zoom-in"
-			data-aos-delay={teamId + '00'}
 		>
 			<div className="card-body">
 				<h2 className="card-title">Groupe {teamId}</h2>
