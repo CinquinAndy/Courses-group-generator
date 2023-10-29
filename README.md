@@ -12,7 +12,7 @@ but I'd have to be able to enter my pupils' levels too.`
 > ce2 = 8 years old  
 > ce1 = 7 years old
 
-[//]: # '![img.png](img.png)'
+![img.png](img.png)
 
 ## How to run ??
 

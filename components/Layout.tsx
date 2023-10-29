@@ -17,11 +17,14 @@ export default function Layout({ children }: Props) {
 	return (
 		<div className="md:container md:mx-auto md:px-4">
 			<Head>
-				<title>Team Generator</title>
+				<title>Générateur de groupe</title>
 				<meta charSet="UTF-8" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<meta name="description" content="Randomly generate teams" />
+				<meta
+					name="description"
+					content="Génération aléatoire de groupe de classe"
+				/>
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"

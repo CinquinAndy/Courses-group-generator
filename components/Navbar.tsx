@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { useState } from 'react'
 import { useThemeStore } from '../store/ThemeStore'
 
 export default function Navbar() {
