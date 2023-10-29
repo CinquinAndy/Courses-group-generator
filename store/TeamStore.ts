@@ -20,7 +20,7 @@ const createTeam = (data: string, size: number): string[][] =>
 const useStore = create<TeamStore>()(
 	devtools((set, get) => ({
 		items: studentsList,
-		groups: 0,
+		groups: 7,
 		teams: [],
 		addItems: item => set({ items: item }),
 		addGroups: size => set({ groups: Math.abs(size) }),
@@ -31,7 +31,7 @@ const useStore = create<TeamStore>()(
 		clearAll: () =>
 			set({
 				items: studentsList,
-				groups: 0,
+				groups: 7,
 				teams: [],
 			}),
 	}))
