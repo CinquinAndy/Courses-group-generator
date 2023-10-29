@@ -6,11 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test:e2e": "cypress open"
+    "lint": "next lint"
   },
   "dependencies": {
-    "aos": "^2.3.4",
+    "aos": "2.3.4",
     "daisyui": "^2.19.0",
     "next": "12.2.2",
     "react": "18.2.0",
@@ -18,16 +17,16 @@
     "zustand": "^4.0.0-rc.1"
   },
   "devDependencies": {
-    "@types/aos": "^3.0.4",
+    "@types/aos": "3.0.4",
     "@types/node": "18.0.3",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
-    "autoprefixer": "^10.4.7",
-    "cypress": "^10.7.0",
+    "autoprefixer": "10.4.7",
+    "cypress": "10.7.0",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.2",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.6",
+    "postcss": "8.4.14",
+    "tailwindcss": "3.1.6",
     "typescript": "4.7.4"
   }
 }
