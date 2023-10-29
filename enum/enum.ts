@@ -15,8 +15,9 @@ const students = [
 	{ name: 'Lucas', group: 'CE1' },
 	{ name: 'Valin', group: 'CE1' },
 	{ name: 'Tilio', group: 'CE1' },
-	{ name: 'Ernest', group: 'CE1' },
+	{ name: 'Liam', group: 'CE1' },
 
+	{ name: 'Ernest', group: 'CE2' },
 	{ name: 'Aliyah', group: 'CE2' },
 	{ name: 'Linoa', group: 'CE2' },
 	{ name: 'Valentin', group: 'CE2' },
@@ -26,7 +27,6 @@ const students = [
 	{ name: 'Sacha', group: 'CE2' },
 	{ name: 'Mahé', group: 'CE2' },
 	{ name: 'Evan', group: 'CE2' },
-	{ name: 'Liam', group: 'CE2' },
 ]
 
 // liste des élèves, séparé par des \n, pour textarea, sous format name (group)\n
