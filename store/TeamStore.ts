@@ -2,6 +2,7 @@ import create from 'zustand'
 import { devtools } from 'zustand/middleware'
 import chunkArr from '../helper/chunksArr'
 import shuffleArr from '../helper/shuffleArr'
+import { studentsList } from '../enum/enum'
 
 interface TeamStore {
 	items: string
@@ -18,7 +19,7 @@ const createTeam = (data: string, size: number): string[][] =>
 
 const useStore = create<TeamStore>()(
 	devtools((set, get) => ({
-		items: '',
+		items: studentsList,
 		groups: 0,
 		teams: [],
 		addItems: item => set({ items: item }),
@@ -29,7 +30,7 @@ const useStore = create<TeamStore>()(
 			}),
 		clearAll: () =>
 			set({
-				items: '',
+				items: studentsList,
 				groups: 0,
 				teams: [],
 			}),

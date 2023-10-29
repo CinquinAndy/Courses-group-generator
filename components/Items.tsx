@@ -9,11 +9,11 @@ export default function Items() {
 			data-aos="fade-up"
 			data-aos-delay="100"
 		>
-			<h2 className="mb-2 px-1 text-xl font-bold text-base-content">Items</h2>
+			<h2 className="mb-2 px-1 text-xl font-bold text-base-content">Élèves</h2>
 			<textarea
 				data-cy="itemsInput"
 				className="textarea textarea-primary h-48 w-full border-2"
-				placeholder="Type here, each item separated with a new line."
+				placeholder="Tapez ici, chaque élève séparé par une nouvelle ligne."
 				value={items}
 				onChange={e => addItems(e.target.value)}
 			></textarea>
