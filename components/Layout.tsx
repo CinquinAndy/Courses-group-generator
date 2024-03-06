@@ -5,6 +5,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import Script from 'next/script'
 
 type Props = {
 	children: ReactNode
@@ -44,6 +45,12 @@ export default function Layout({ children }: Props) {
 				/>
 				<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 				<link rel="manifest" href="/site.webmanifest" />
+				<Script
+					async
+					src="https://umami.wadefade.fr/script.js"
+					strategy={'afterInteractive'}
+					data-website-id="9c5eeab0-620b-4063-8948-c8646b72df14"
+				></Script>
 			</Head>
 			<Navbar />
 			<main>{children}</main>
