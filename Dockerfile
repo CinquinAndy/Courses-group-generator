@@ -2,11 +2,9 @@ FROM node:20-alpine
 
 WORKDIR /usr/app
 
-COPY ./.next ./.next
 COPY ./public ./public
 COPY ./package.json .
 COPY ./package-lock.json .
-COPY ./next* .
 
 RUN npm ci --omit=dev --ignore-scripts
 
