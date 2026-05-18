@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import { ReactNode, useEffect } from 'react'
 // AOS
 import AOS from 'aos'
+import Head from 'next/head'
+import { type ReactNode, useEffect } from 'react'
 import 'aos/dist/aos.css'
+import Script from 'next/script'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import Script from 'next/script'
 
 type Props = {
 	children: ReactNode
@@ -22,27 +22,10 @@ export default function Layout({ children }: Props) {
 				<meta charSet="UTF-8" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<meta
-					name="description"
-					content="Génération aléatoire de groupe de classe"
-				/>
-				<link
-					rel="apple-touch-icon"
-					sizes="180x180"
-					href="/apple-touch-icon.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="32x32"
-					href="/favicon-32x32.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="16x16"
-					href="/favicon-16x16.png"
-				/>
+				<meta name="description" content="Génération aléatoire de groupe de classe" />
+				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+				<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 				<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 				<link rel="manifest" href="/site.webmanifest" />
 			</Head>

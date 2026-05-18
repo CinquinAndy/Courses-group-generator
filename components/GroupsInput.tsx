@@ -4,12 +4,11 @@ export default function GroupsInput() {
 	const { groups, addGroups } = useTeamStore(state => state)
 	return (
 		<>
-			<label className="label">
-				<span className="label-text text-lg font-bold text-base-content">
-					Groupes
-				</span>
+			<label htmlFor="groupsInput" className="label">
+				<span className="label-text text-lg font-bold text-base-content">Groupes</span>
 			</label>
 			<input
+				id="groupsInput"
 				data-cy="groupsInput"
 				type="number"
 				placeholder="0"

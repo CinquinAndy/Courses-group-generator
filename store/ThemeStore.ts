@@ -1,5 +1,5 @@
-import create from 'zustand'
-import { devtools, persist } from 'zustand/middleware'
+import { create } from 'zustand'
+import { devtools, persist, createJSONStorage } from 'zustand/middleware'
 
 interface ThemeStore {
 	dark: boolean
@@ -15,7 +15,7 @@ const useStore = create<ThemeStore>()(
 			}),
 			{
 				name: 'tg-theme-storage',
-				getStorage: () => localStorage,
+				storage: createJSONStorage(() => localStorage),
 			}
 		)
 	)

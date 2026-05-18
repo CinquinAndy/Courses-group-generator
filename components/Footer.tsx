@@ -10,8 +10,7 @@ export default function Footer() {
 				</Link>
 			</p>
 			<p className="text-xs">
-				Developed & Designed with ❤️ 🐝
-				<Link href={'https://forhives.fr'}>ForHives co-founders</Link>
+				Developed & Designed with ❤️ 🐝<Link href={'https://forhives.fr'}>ForHives co-founders</Link>
 			</p>
 		</footer>
 	)
