@@ -12,13 +12,17 @@ jobs:
       - name: Use Node.js 20.x
         uses: actions/setup-node@v4
         with:
-          cache: 'npm'
           node-version: 20.x
+      - name: Use Bun
+        uses: oven-sh/setup-bun@v2
       - name: Install dependencies in production
-        run: npm ci --ignore-scripts
+        run: bun install --frozen-lockfile --ignore-scripts
+      # Lint before the build: "next build" rewrites next-env.d.ts in a style biome rejects
+      - name: Lint
+        run: bun run lint
       - name: Build the app
         continue-on-error: false
-        run: npm run build
+        run: bun run build
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
@@ -28,4 +32,4 @@ jobs:
         with:
           context: .
           push: false
-          tags: ${{ secrets.APP_IMAGE }}
+          tags: courses-group-generator:ci
